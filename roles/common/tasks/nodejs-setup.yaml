@@ -8,7 +8,7 @@
 
 - name: install npm depencies
   community.general.npm:   
-  path: /app
+   path: /app
 
 
 
