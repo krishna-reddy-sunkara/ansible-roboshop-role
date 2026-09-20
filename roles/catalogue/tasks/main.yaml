@@ -13,10 +13,10 @@
    name: common
    tasks_from: systemd-setup.yaml  
 
- - name: copy mongodb repo
-   ansible.builtin.copy:
-     src: mongo.repo
-     dest: /etc/yum.repos.d/mongo.repo   
+- name: copy mongodb repo
+  ansible.builtin.copy:
+    src: mongo.repo
+    dest: /etc/yum.repos.d/mongo.repo   
 
 
 - name: install clint package
