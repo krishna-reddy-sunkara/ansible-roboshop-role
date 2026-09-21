@@ -11,7 +11,7 @@
 - name: app setup
   ansible.builtin.import_role:
    name: common
-   tasks_from: syatemd-setup.yaml    
+   tasks_from: systemd-setup.yaml    
 
 - name: install dependences
   ansible.builtin.pip:
